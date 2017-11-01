@@ -46,7 +46,7 @@ public class Sample10StrokeJoinView extends View {
         paint.setStrokeJoin(Paint.Join.BEVEL);
         canvas.drawPath(path, paint);
 
-        canvas.translate(300, 0);
+        canvas.translate(-300, 200);
         paint.setStrokeJoin(Paint.Join.ROUND);
         canvas.drawPath(path, paint);
 
